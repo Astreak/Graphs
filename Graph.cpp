@@ -47,7 +47,7 @@ typedef class T{
     void inorder();
     void postorder();
     bool check_bst(T* root);
-}T;
+};
 //change directed and undirected graph here
 void Graph::add_edge(int a,int b){
     adj[a].push_back(b);
